@@ -16,7 +16,7 @@ function Home() {
   };
 
   return (
-    <div>
+    <div className = "search">
       <h1>Pokémon Search</h1>
       <input
         type="text"
