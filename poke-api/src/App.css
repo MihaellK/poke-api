@@ -1,5 +1,9 @@
+body {
+  background-color: rgb(237, 237, 237);
+}
+
 .card {
-  border: solid;
+  border: 8px yellowgreen solid;
   display: flex;
   flex-direction: column;
 
@@ -16,4 +20,5 @@
 
 .poke-pic{
   max-width: 300px;
+  background-color: rgb(193, 193, 193);
 }
