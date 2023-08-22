@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Home />
-      <Card />
+      <Card pokename="Pikachu" pokenumber="25" pic="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"/>
     </div>
   );
 }

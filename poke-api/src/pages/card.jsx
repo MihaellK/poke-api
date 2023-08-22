@@ -1,11 +1,15 @@
 import React from "react";
 
-const Card = () => {
+const Card = (props) => {
     return (
         <div className="card">
-            <h1> Pokename #25</h1>
-            <img className="poke-pic" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"></img>
-            <p>Bla bla bla</p>
+            <h1> {props.pokename} #{props.pokenumber}</h1>
+            <img className="poke-pic" src={props.pic}></img>
+            <div className="card-infos">
+                <p>Info 1</p>
+                <p>Info 2</p>
+            </div>
+            
         </div>
     )
 }
