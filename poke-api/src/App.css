@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(237, 237, 237);
+
+}
+
+.App {
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px
+}
+
+.search {
+  margin: auto;
+  margin-top: 40px; 
+}
+
+.card {
+  border: 4px yellowgreen solid;
+  display: flex;
+  flex-direction: column;
+
+  width: 350px;
+
+  margin: 50px 0px;
+
+  margin: auto;
+}
+
+.card > * {
+  margin: auto
+}
+
+.card > h1 {
+  margin: auto
+}
+
+.poke-pic{
+  max-width: 300px;
+  background-color: rgb(193, 193, 193);
+}
